@@ -1,0 +1,75 @@
+/* This is the syntax for a CSS comment. */
+
+/* Typically you put all of your general element styles at the top. */
+*{
+}
+
+body {
+	background-color: #eeeeee;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: georgia, baskerville, serif;  
+  
+}
+
+h1 {
+	color: #111111;
+    font-size: 36px;
+}
+
+h2 {
+    color: #FF00FF
+    font-size: 24px;
+}
+
+p {
+    color: #000
+    font-size: 16px;
+
+}
+
+img {
+
+}
+
+
+nav {
+
+}
+
+nav a {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+footer {
+
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        padding: 5%;
+    }
+    h1{
+        text-align: center;
+        padding: 5%
+    }
+    
+    h2{
+        text-align: center;
+        padding: 5%
+    }
+    
+    p {
+        text-align: center;
+        padding 5%;
+
+    }
+}
